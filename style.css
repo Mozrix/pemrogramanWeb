@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    padding: 10px;
+}
+
+#mainHeader{
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input, select{
+    width: 200px;
+}
+
+#btnSubmit{
+    background-color: rgb(50, 50, 255);
+    color: white;
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 8px;
+    width: 200px;
+}
+
+.container{
+    width: 400px;
+    margin: 20px auto;    
+}
+
+#formAction{
+    background-color: aqua;
+    padding: 20px;
+}

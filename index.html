@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- <style>
+
+    </style> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pertemuan 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="#">
-        <label for="">Form Kehadiran Praktikan</label> <br>
-        <label for="">Nama: </label>
-        <input type="text" name="nama" id="nama" placeholder="Masukan Nama"> <br>
-        <label for="">NPM: </label>
-        <input type="number" name="npm" id="npm" placeholder="Masukan NPM"> <br>
-        <label for="">Kelas: </label>
-        <select name="" id="">
-            <option selected disabled>Pilih Kelas</option>
-            <option value=""> SI </option>
-            <option value=""> ILKOM </option>
-            <option value=""> D3 </option>
-        </select> <br>
-        <Label for="">Tanggal: </Label>
-        <input type="date"> <br>
-        <Label for="">Waktu: </Label>
-        <input type="time"> <br>
-        <button type="submit">Simpan</button>
-    </form>
+    <header id="mainHeader">
+        <h1 class="title">Form Kehadiran</h1>
+    </header>
+    <div class="container">
+        <form id="formAction" action="#">
+            <label for="">Nama: </label>
+            <br>
+            <input type="text" name="nama" id="nama" placeholder="Masukan Nama"> <br>
+            <br>
+            <label for="">NPM: </label>
+            <br>
+            <input type="number" name="npm" id="npm" placeholder="Masukan NPM"> <br>
+            <br>
+            <label for="">Kelas: </label>
+            <br>
+            <select name="" id="">
+                <option selected disabled>Pilih Kelas</option>
+                <option value=""> SI </option>
+                <option value=""> ILKOM </option>
+                <option value=""> D3 </option>
+            </select> <br>
+            <Label for="">Tanggal: </Label> <br>
+            <input type="date"> <br>
+            <Label for="">Waktu: </Label> <br>
+            <input type="time"> <br>
+            <button type="submit" id="btnSubmit">Simpan</button>
+        </form>
+    </div>
 </body>
 </html>
